@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubolio | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">Cubolio.</div>
+            <nav class="menu">
+                <ul>
+                    <li class="active"><a href="#">Timer</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Creator Studio</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="dashboard">
+            <div class="scramble-container">
+                <p class="scramble-text">R U R' F' U2 L2 D B2 U' R2 D' F2 U2</p>
+            </div>
+
+            <div class="timer-container">
+                <h1 class="main-timer">00:00.00</h1>
+                <p class="helper-text">Press Spacebar to start</p>
+            </div>
+
+            <div class="quick-stats">
+                <div class="stat-box" >Ao5: <span id="ao5-display">--</span></div>
+                <div class="stat-box">Ao12: <span id="ao12-display">--</span></div>
+                <div class="stat-box">Solves: <span id="solves">0</span></div>
+            </div>
+        </main>
+    </div>
+     <script src="app.js"></script>
+</body>
+</html>
